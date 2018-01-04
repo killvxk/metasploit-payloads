@@ -109,8 +109,8 @@ typedef struct _DnsTransportContext
 	WORD request_type;
 	wchar_t *domain;                         ///! Pointer to the DNS domain stored with the transport.
 	wchar_t *ns_server;
-    wchar_t *client_id;
-    wchar_t *server_id;
+	wchar_t *client_id;
+	wchar_t *server_id;
 	USHORT counter;
 	DWORD type;
 	PVOID pip4;
